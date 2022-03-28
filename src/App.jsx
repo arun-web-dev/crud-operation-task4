@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { RecipeList } from "./Components/RecipeList";
 import { Header } from "./Components/Header";
-import { AddRecipe } from "./Components/AddRecipe";
+import AddRecipe from "./Components/AddRecipe";
 import { v4 as uuidV4 } from "uuid";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Modal } from "./Components/Modal";
 import { RecipeDetail } from "./Components/RecipeDetail";
-import { EditRecipe } from "./Components/EditRecipe";
+import EditRecipe from "./Components/EditRecipe";
 
 function App() {
   const LOCAL_STORAGE_KEY = "recipes";

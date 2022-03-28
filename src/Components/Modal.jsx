@@ -28,7 +28,7 @@ export const Modal = ({ removeRecipe }) => {
             }}
             className="f6 link dim br2 ph3 pv2 mb2 dib white bg-navy ml2"
           >
-            Return
+            Cancel
           </a>
         </div>
       </div>
